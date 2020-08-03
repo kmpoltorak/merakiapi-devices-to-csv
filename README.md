@@ -5,7 +5,7 @@ Script will verify if there is API enabled or not in the Merkai dashboard for ce
 # Prerequirements
 * Enabled API in the Meraki dashboard (**Organization >> Configure >> Settings >> Dashboard API access >>  Enable access to the Cisco Meraki Dashboard API**)
 * Generate user API key and copy from Meraki dashboard into **config.py** file (```API_KEY = 'PASTE_YOUR_MERAKI_API_KEY_HERE'```)
-* Install all needed packages with: ```pip install -r requirements.txt```
+* Install all needed packages with: ```pip3 install -r requirements.txt```
 * Installed Python3 (my version was 3.8 and all was working fine)
 
 How to generate Meraki user API key:
