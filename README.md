@@ -15,7 +15,7 @@ https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_
 If there are any issues you can simply turn on debugging in **config.py** file by changing **OUTPUT_LOG** constant to **True**.
 
 # Script output
-In the output there you should obtain file named **meraki_devices.csv** with statement of all the ogranization/network/devices in such format:
+In the output you should obtain file named **meraki_devices.csv** with statement of all the ogranization/network/devices in such format:
 
 ```
 organization_name,network_name,device_name,device_model,device_serial,device_IP
