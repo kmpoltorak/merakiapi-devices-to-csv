@@ -12,7 +12,7 @@ How to generate Meraki user API key:
 https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API
 
 # Troubleshooting
-If there are any issues you can simply turn on debugging in **config.py** file by changing **OUTPUT_LOG** constant to **True**.
+If there are any issues you can simply turn on debugging in **config.py** file by changing **OUTPUT_LOG** constant to **True** and it will create log file after script run.
 
 # Script output
 In the output you should obtain file named **meraki_devices.csv** with statement of all the ogranization/network/devices in such format:
