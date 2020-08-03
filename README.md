@@ -22,7 +22,7 @@ organization_name,network_name,device_name,device_model,device_serial,device_IP
 ```
 
 # Known errors:
-* "Organizations, getOrganizations - 404 Not Found, please wait a minute if the key or org was just newly created." - verify if the API key is fine. The API key works approximately 5 minutes after its creation. It can be also bad user API key.
+* "Organizations, getOrganizations - 404 Not Found, please wait a minute if the key or org was just newly created." - verify if the API key is fine. The API key works approximately 5 minutes after its creation. It can be also old user API key.
 
 # Meraki API knowledge base
 https://dashboard.meraki.com/api_docs/v0 (there is also v1 version https://dashboard.meraki.com/api_docs/v1)
