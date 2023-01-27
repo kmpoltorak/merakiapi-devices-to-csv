@@ -6,7 +6,7 @@ Script will verify if there is API enabled or not in the Merkai dashboard for ce
 * Enabled API in the Meraki dashboard (**Organization >> Configure >> Settings >> Dashboard API access >>  Enable access to the Cisco Meraki Dashboard API**)
 * Generate user API key and copy from Meraki dashboard into **config.py** file (```API_KEY = 'PASTE_YOUR_MERAKI_API_KEY_HERE'```)
 * Install all needed packages with: ```pip3 install -r requirements.txt```
-* Installed Python3 (my version was 3.8 and all was working fine)
+* Installed Python3
 
 How to generate Meraki user API key:
 https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API
@@ -25,4 +25,4 @@ organization_name,network_name,device_name,device_model,device_serial,device_IP
 * "Organizations, getOrganizations - 404 Not Found, please wait a minute if the key or org was just newly created." - verify if the API key is fine. The API key works approximately 5 minutes after its creation. It can be also old user API key.
 
 # Meraki API knowledge base
-https://dashboard.meraki.com/api_docs/v0 (there is also v1 version https://dashboard.meraki.com/api_docs/v1)
+https://dashboard.meraki.com/api_docs/v1

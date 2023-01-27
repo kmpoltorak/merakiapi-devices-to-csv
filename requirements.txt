@@ -1,12 +1,2 @@
-aiohttp==3.7.4
-async-timeout==3.0.1
-attrs==19.3.0
-certifi==2022.12.7
-chardet==3.0.4
-idna==2.10
-meraki==0.110.5
-multidict==4.7.6
-requests==2.24.0
-typing-extensions==3.7.4.2
-urllib3==1.26.5
-yarl==1.5.0
+meraki
+requests
